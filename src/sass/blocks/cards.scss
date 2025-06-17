@@ -1,0 +1,23 @@
+@use '/src/sass/base/variables.scss' as *;
+
+.product {
+  &__card {
+    border: 1px solid $dark;
+    border-top: none;
+    &_info {
+      padding: 11px 11px 17px 11px;
+    }
+    &_desc {
+      margin-top: 7.7px;
+      font-weight: 500;
+      font-size: 16px;
+      color: #000;
+    }
+    &_price {
+      margin-top: 7.7px;
+      font-weight: 500;
+      font-size: 16px;
+      color: #000;
+    }
+  }
+}
